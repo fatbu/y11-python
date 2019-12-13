@@ -48,8 +48,6 @@ def outputText(textOutput):
                 outputFile.write(currentLine+'\n')
                 currentLine = word + ' '
 
-
-
 while True:
     try:
         file = open(input('Please enter a filename:'),'r')
